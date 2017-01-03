@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Outputs the integer n to the standard output
+*/
+
 void	ft_putnbr(int nb)
 {
 	if (nb == -2147483648)

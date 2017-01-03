@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Writes a character to the standard output
+*/
+
 void	ft_putchar(char c)
 {
 	unsigned char	ch;

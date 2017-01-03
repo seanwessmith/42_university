@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Copies the first len characters of src to dust
+*/
+
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
 	char *s;

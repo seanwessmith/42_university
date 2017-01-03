@@ -11,7 +11,11 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
+
+/*
+ * Reallocs a string the size of ptr and size. 
+ * Copies the ptr string into the newly created string
+*/
 
 char		*ft_realloc(char *ptr, size_t size)
 {

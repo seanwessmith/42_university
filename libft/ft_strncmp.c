@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Compares up to num characters of the C string str1 to those of the C string str2
+*/
+
 int		ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;

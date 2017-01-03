@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * Allocates with malloc and returns a new memory area. 
+ * The memory allocated is initialized to 0.
+*/
+
 void	*ft_memalloc(size_t size)
 {
 	char *str;

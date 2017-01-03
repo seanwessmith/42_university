@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Remove the current node using the included *del function
+*/
+
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {
 	if (alst != NULL)

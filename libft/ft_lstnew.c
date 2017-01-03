@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Allocates with malloc and returns a new linked list.
+ * If the allocation fails, the function returns NULL.
+*/
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {
 	t_list *root;

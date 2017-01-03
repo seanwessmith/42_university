@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * Applies the function f to each character of the string given as argument to create a
+ * new string with malloc resulting from the successive applications of f.
+*/
+
 char	*ft_strmap(char const *s, char (*f)(char))
 {
 	int		i;

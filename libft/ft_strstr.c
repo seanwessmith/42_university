@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * Returns a pointer to the first occurrence of str2 in str1, or a null pointer if str2 is
+ * not part of str1.
+*/
+
 char	*ft_strstr(const char *big, const char *little)
 {
 	int		i;

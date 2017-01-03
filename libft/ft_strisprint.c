@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * The strisprint() function shall test whether all characters in the string are printable
+ * characters
+*/
+
 int		ft_strisprint(char *str)
 {
 	while (*str != '\0')

@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * The strisalpha() function shall test whether all characters in the string are of class
+ * alpha
+*/
+
 int		ft_strisalpha(char *str)
 {
 	while (*str != '\0')

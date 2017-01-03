@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * The isdigit() function shall test whether c is a character of class digit
+*/
+
 int		ft_isdigit(int c)
 {
 	if (c >= 48 && c <= 57)

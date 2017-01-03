@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * The isprint() function shall test whether c is a character of class print
+*/
+
 int		ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)

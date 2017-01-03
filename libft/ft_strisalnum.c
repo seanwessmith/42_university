@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * The strisalnum() function shall test whether all characters are either alpha or digit
+*/
+
 int		ft_strisalnum(char *str)
 {
 	while (*str != '\0')

@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+ * Allocates with malloc and returns an array of new strings all ending with
+ * ’\0’, including the array itself, obtained by splitting s using the character c as a
+ * delimiter. If the allocation fails the function returns NULL
+*/
+
 static int	ft_maxword(char const *str1, char c, int *word_ct, int *char_ct)
 {
 	int		i;

@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Loop through the entire list removing the nodes and the head
+*/
+
 void	ft_lstdel(t_list **alst, void (*del)(void *, size_t))
 {
 	t_list		*next_one;

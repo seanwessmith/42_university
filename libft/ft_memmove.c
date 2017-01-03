@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * The memmove() function copies n bytes from memory area src to memory
+ * area dest.  The memory areas may overlap
+*/
+
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	size_t		i;

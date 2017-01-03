@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Convert integers to alpha characters while handling min and max integers 
+*/
+
 static void	ft_sign(int *n, int *sign, int *temp, int *len)
 {
 	if (*n < 0)

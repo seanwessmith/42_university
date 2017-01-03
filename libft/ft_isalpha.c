@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * The isalpha() function shall test whether c is a character of class alpha
+*/
+
 int		ft_isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))

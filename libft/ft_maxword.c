@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Returns the length of the longest word in a string
+*/
+
 int		ft_maxword(char const *str1, char c, int *word_ct, int *char_ct)
 {
 	int		i;

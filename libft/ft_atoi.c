@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Convert alpha characters to integer while handling min and max integers
+*/
+
 int		ft_atoi(const char *str)
 {
 	unsigned long long	x;

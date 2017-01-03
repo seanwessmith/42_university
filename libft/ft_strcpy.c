@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * Pointer to the destination array where the content is to be copied
+*/
+
 char	*ft_strcpy(char *dst, const char *src)
 {
 	int i;

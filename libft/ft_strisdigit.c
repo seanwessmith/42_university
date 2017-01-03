@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+ * The strisdigit() function shall test whether all characters in the string are of class
+ * digit
+*/
+
 int		ft_strisdigit(char *str)
 {
 	while (*str != '\0')

@@ -12,6 +12,10 @@
 
 #include "libft.h"
 
+/*
+ * The isascii() function shall test whether c is a 7-bit US-ASCII character code
+*/
+
 int		ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
