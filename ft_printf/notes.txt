@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/1735236/how-to-write-my-own-printf-in-c

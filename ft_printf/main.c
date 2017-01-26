@@ -1,0 +1,247 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ssmith <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/01/10 16:14:33 by ssmith            #+#    #+#             */
+/*   Updated: 2017/01/26 14:36:31 by ssmith           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft/libft.h"
+#include "includes/ft_printf.h"
+#include <stdio.h>
+
+int		main()
+{
+	ft_printf("%");
+
+//42 FILE CHECKER//	
+//	ft_printf("%-10.5d", 4242);
+//	printf("\n%-10.5d", 4242);
+//	ft_printf("%0+5d", -42);
+//	printf("\n%0+5d", -42);
+//	ft_printf("%-+10.5d", 4242);
+//	printf("\n%-+10.5d", 4242);
+//	ft_printf("%-#6o", 2500);
+//	printf("\n%-#6o", 2500);
+//	ft_printf("%0+5d", 42);
+//	printf("\n%0+5d", 42);
+//	ft_printf("% ++d", 42);
+//	printf("\n% ++d", 42);
+//	ft_printf("%+ d", 42);
+//	printf("\n%+ d", 42);
+//	ft_printf("%#-08x", 42);
+//	printf("\n%#-08x", 42);
+//	ft_printf("%-#6o", 2500);
+//	printf("\n%-#6o", 2500);
+//	ft_printf("%u", "-1");
+//	printf("\n%u", "-1");
+//	ft_printf("@moulitest: %#.o %#.0o", 0, 0);
+//	printf("\n@moulitest: %#.o %#.0o", 0, 0);
+//	printf("%d", ft_printf("%2c", 0));
+//	printf("%d", printf("\n%5c", 0));
+//	ft_printf("@moulitest: %.5u", "42");
+//	printf("\n@moulitest: %.5u", "42");
+//	ft_printf("%lu", (unsigned long)-42);
+//	printf("\n%lu", (unsigned long)-42);
+//	ft_printf("% u", (unsigned int)4294967295);
+//	printf("\n% u", (unsigned int)4294967295);
+//	ft_printf("%u", (unsigned int)4294967296);
+//	printf("\n%u", (unsigned int)4294967296);
+//	ft_printf("%u", (unsigned int)"-1");
+//	printf("\n%u", (unsigned int)"-1");
+//	ft_printf("%15u", (unsigned int)4294967295);
+//	printf("\n%15u", (unsigned int)4294967295);
+//	ft_printf("%5u", "4294967295");
+//	printf("\n%5u\n", "4294967295");
+//	ft_printf("%05d", -42);
+//	printf("\n%05d", -42);
+//	ft_printf("%5u", "4294967295");
+//	printf("\n%5u\n", "4294967295");
+//	ft_printf("%u", "4294967295");
+//	printf("\n%u", "4294967295");
+//	ft_printf("%u", "4294967295");
+//	printf("\n%u", "4294967295");
+//	ft_printf("%u", "4294967295");
+//	printf("\n%u", "4294967295");
+//	ft_printf("%u", "-1");
+//	printf("\n%u", "-1");
+//	ft_printf("%-#6o", 2500);
+//	printf("\n%-#6o", 2500);
+//	ft_printf("%-#6o", 2500);
+//	printf("\n%-#6o", 2500);
+//	ft_printf("%s %s", NULL, "string");
+//	printf("\n%s %s", NULL, "string");
+//	ft_printf("%-10s is a string", "");
+//	printf("\n%-10s is a string", "");
+//	ft_printf("%#x", 42);
+//	printf("\n%#x", 42);
+//	ft_printf("%x", 42);
+//	printf("\n%x", 42);
+//	ft_printf("%#08x", 42);
+//	printf("\n%#08x\n", 42);
+//	ft_printf("%jx", -4294967297);
+//	printf("\n%jx\n", -4294967297);
+//	ft_printf("%10x", 42);
+//	printf("\n%10x", 42);
+//	ft_printf("%x", 4294967296);
+//	printf("\n%x", 4294967296);
+//	ft_printf("%x", (unsigned int)-42);
+//	printf("\n%x", (unsigned int)-42);
+//	printf("\n%03.2d", 0);
+//	ft_printf("%+10.5d", 4242);
+//	printf("\n%+10.5d", 4242);
+//	ft_printf("% d", -42);
+//	printf("\n% d", -42);
+//	ft_printf("% 10.5d", 4242);
+//	printf("\n% 10.5d\n", 4242);
+//	ft_printf("%10.5d", 4242);
+//	printf("\n%10.5d", 4242);
+//	ft_printf("%.2d", 4242); 
+//	printf("\n%.2d", 4242); 
+//	ft_printf("%4.15d", 42);
+//	printf("\n%4.15d", 42);
+//	ft_printf("%0+5d", -42);
+//	printf("\n%0+5d", -42);
+//	ft_printf("%05d", -42);
+//	printf("\n%05d\n", -42);
+//	ft_printf("%+d", -42);
+//	printf("\n%+d", -42);
+//	ft_printf("%d", 2147483648);
+//	printf("\n%d", 2147483648);
+//	ft_printf("%5d", -42);
+//	printf("\n%5d\n", -42);
+//	ft_printf("%0+5d", 42);
+//	printf("\n%0+5d", 42);
+//	ft_printf("%+d", -42);
+//	printf("\n%+d", -42);
+//	ft_printf("% d", -42);
+//	printf("\n% d", -42);
+//	ft_printf("%d", 2147483648);
+//	printf("\n%d", 2147483648);
+//	ft_printf("%+d", -42);
+//	printf("\n%+d", -42);
+	/*
+	ft_printf("%0+5d", -42);
+	printf("\n%0+5d\n", -42);
+	ft_printf("% d", -42);
+	printf("\n% d\n", -42);
+	ft_printf("%5d", 42);
+	printf("\n%5d\n", 42);
+	ft_printf("%05d", -42);
+	printf("\n%05d", -42);
+	*/
+//	ft_printf("%0+5d", -42);
+//	printf("\n%0+5d", -42);
+//	ft_printf("%05d", -42);
+//	printf("\n%05d", -42);
+//	ft_printf("%5d", 42);
+//	printf("\n%5d", 42);
+//	ft_printf("%05d", -42);
+//	printf("\n%05d", -42);
+//	ft_printf("%0+5d", -42);
+//	printf("\n%0+5d", -42);
+//	ft_printf("%0+5d", 42);
+//	printf("\n%0+5d", 42);
+//	ft_printf("%10.5d", 4242);
+//	printf("\n%10.5d", 4242);
+//	ft_printf("%.2d", 4242);
+//	printf("\n%.2d", 4242);
+//	ft_printf("%4.15d", 42);
+//	printf("\n%4.15d", 42);
+//	ft_printf("%d %d %d %d gg!", 1, -2, 33, 42, 0);
+//	printf("\n%d %d %d %d gg!", 1, -2, 33, 42, 0);
+//	ft_printf("%d", 1);
+//	printf("\n%d", 1);
+//	ft_printf("%.10d", 4242);
+//	printf("\n%.10d", 4242);
+//	ft_printf("%4.15d", 42);
+//	printf("\n%4.15d", 42);
+//	ft_printf("%d %d", 1, -2);
+//	printf("\n%d %d", 1, -2);
+//	ft_printf("%jd", 9223372036854775807);
+//	printf("\n%jd", 9223372036854775807);
+//	ft_printf("%lld", -9223372036854775808);
+//	printf("\n%lld", -9223372036854775808);
+//	ft_printf("%ld", 2147483648);
+//	printf("\n%ld", 2147483648);
+//	ft_printf("%u", "0");
+//	printf("\n%u", "0");
+//	ft_printf("%d is one", 1);
+//	printf("\n%d is one", 1);
+//	ft_printf("%ld", 2147483647);
+//	printf("\n%ld", 2147483647);
+//	ft_printf("%+d", -42);
+//	printf("\n%+d", -42);
+//	ft_printf("% d", -42);
+//	printf("\n% d", -42);
+//	ft_printf("%05d", -42);
+//	printf("\n%05d", -42);
+//	ft_printf("%hhd", -129);
+//	printf("\n%hhd", -129);
+//	ft_printf("%hhd", 128);
+//	printf("\n%hhd", 128);
+//	ft_printf("%d", 2147483647);
+//	printf("\n%d", 2147483647);
+//	ft_printf("%hhd", 127);
+//	printf("\n%hhd", 127);
+//	ft_printf("%hd", 32768);
+//	printf("\n%hd", 32768);
+//	ft_printf("%d is one", 1);
+//	printf("\n%d is one", 1);
+//	ft_printf("%hd", 32767);
+//	printf("\n%hd", 32767);
+//	ft_printf("%-5d", 42);
+//	printf("\n%-5d", 42);
+//	ft_printf("%5d", -42);
+//	ft_printf("\n%5d", -42);
+//BROKEN	ft_printf("%+d", 4242424242424242424);
+//BROKEN	printf("\n%+d", 4242424242424242424);
+//	ft_printf("%d", 2147483648);
+//	printf("\n%d", 2147483648);
+//	ft_printf("%05d", -42);
+//	printf("\n%05d", -42);
+//	ft_printf("%+d", 42);
+//	printf("\n%+d", 42);
+//	ft_printf("%0+5d", 42);
+//	printf("\n%0+5d", 42);
+//	ft_printf("%05d", 42);
+//	printf("\n%05d", 42);
+//	ft_printf("%5d", 42);
+//	printf("\n%5d", 42);
+//	ft_printf("% ++d", 42);
+//	printf("\n% ++d", 42);
+//	ft_printf("%  +d", 42);
+//	printf("\n%  +d", 42);
+//	ft_printf("% +d", -42);
+//	printf("\n% +d", -42);
+//	ft_printf("% +d", 42);
+//	printf("\n% +d", 42);
+//	ft_printf("%+d", -42);
+//	printf("\n%+d", -42);
+//	ft_printf("%+d", 42);
+//	printf("\n%+d", 42);
+//	ft_printf("% d", -42);
+//	printf("\n% d\n", -42);
+//	ft_printf("% d", 42);
+//	printf("\n% d", 42);
+//	ft_printf("%%", "test");
+//	printf("\n%%", "test");
+//	ft_printf("%d is one", 1);
+//	printf("\n%d is one", 1);
+//	ft_printf("% d", 42);
+//	printf("\n% d", 42);
+//	ft_printf ("Preceding with zeros: %010d", 1977);
+//	printf ("\nPreceding with zeros: % 10w%\n", 1977);
+//	printf ("\nPreceding with zeros: % 10%\n", 1977);
+//	printf ("\nPreceding with zeros: %-10i\n", 1977);
+//	printf ("\nPreceding with zeros: %    %\n");
+//	ft_printf("1. %x", -42);
+//	printf("\n%x", -42);
+//	ft_printf("%x", 0);
+//	ft_printf("%   %", "test");
+//	ft_printf("%%hello %s %d %c", "world", 2017, '|');
+}
