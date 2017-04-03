@@ -1,0 +1,1 @@
+These functions are a recreation of the C standard library. The project to create these functions was utilized to serve as a starting point towards learning the C language. These functions are utilized throughout the C projects at 42.
